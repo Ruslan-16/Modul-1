@@ -1,10 +1,8 @@
-from array import typecodes
-
 name='Ruslan'
-print(name)
+print('name',name)
 age=37
-print(age)
-new_age= 1
-print(age+new_age)
-name='is_student'
-print(name,type(name))
+print('age',age)
+age = age+12
+print('age_2', age)
+is_student = True
+print('is_student',is_student)
