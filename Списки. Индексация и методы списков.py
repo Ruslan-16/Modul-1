@@ -1,0 +1,15 @@
+animals= ['cat','dog','pig']
+print(animals)
+print(animals[2])
+animals[2]='fish'
+print(animals)
+animals.append('pig')
+print(animals)
+animals.extend('hippopotamus')
+print(animals)
+animals.remove('cat')
+animals.extend(['hippopotamus', 4])
+print(animals)
+print('cat' in animals)
+print('fish' in animals)
+print(animals [1:2])
